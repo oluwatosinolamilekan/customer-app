@@ -14,7 +14,7 @@ Below are the steps you need to successfully setup and run the application.
 - Update DB credentials to match with your db
 - Run `php artisan migrate`
 - Run  `php artisan db:seed` 
-- Run `npm install`
+- Run `php  artisan serve`
 
 
 
