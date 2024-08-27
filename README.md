@@ -16,7 +16,6 @@ Below are the steps you need to successfully setup and run the application.
 - Run  `php artisan db:seed` 
 - Run `npm install`
 
-## Features
 
 
 ## Explanation
