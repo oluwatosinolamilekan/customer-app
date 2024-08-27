@@ -26,7 +26,6 @@ class CustomerController extends Controller
                 $q->where('name', 'like', '%' . $request->input('item_name') . '%');
             });
         });
-
         $customers = $query->get();
         return view('customers.index', compact('customers'));
     }

@@ -23,7 +23,6 @@ Below are the steps you need to successfully setup and run the application.
  - Eager Loading: I used with('orders.items') to eager load the related orders and items, reducing the number of database queries.
  - Conditional Query Building: I used the when method to conditionally add query constraints, avoiding unnecessary database calls.
  - Query Optimization: I used whereHas to filter customers based on related models, reducing the number of database queries.
- - Indexing: Assuming the database tables have proper indexing on columns used in the where and whereHas clauses, this will further improve query performance.
 
 
  This implementation efficiently searches customers based on the provided criteria, leveraging Eloquent relationships and query optimization techniques to minimize database queries and ensure scalability.
